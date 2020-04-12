@@ -27,25 +27,25 @@ export default function App() {
     const response = await api.post(`/repositories/${id}/like`)
 
     // SOLUÇÃO 001
-    // const repositoryIndex = repositories.findIndex(repository => repository.id === id)
+    const repositoryIndex = repositories.findIndex(repository => repository.id === id)
 
-    // repositories[repositoryIndex] = response.data
+    repositories[repositoryIndex] = response.data
 
-    // setRepositories([...repositories])
+    setRepositories([...repositories])
 
     //  SOLUÇÃO 002
 
-    const newRepository = response.data
+    // const newRepository = response.data
 
-    const repositoriesUpdate = repositories.map(repository =>{
-      if(repository.id === id){
-        return newRepository
-      }else{
-        return repository
-      }
-    })
+    // const repositoriesUpdate = repositories.map(repository =>{
+    //   if(repository.id === id){
+    //     return newRepository
+    //   }else{
+    //     return repository
+    //   }
+    // })
 
-    setRepositories(repositoriesUpdate)
+    // setRepositories(repositoriesUpdate)
 
 
   }
