@@ -7,7 +7,7 @@ Conceitos do React Native
   🚀 Testing some React Native functionality
 </h4>
 
-![GitHub top language](https://img.shields.io/github/languages/top/vop1234/conceitos-do-react-native)  ![GitHub language count](https://img.shields.io/github/languages/count/vop1234/conceitos-do-react-native)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/vop1234/conceitos-do-react-native) ![GitHub language count](https://img.shields.io/github/languages/count/vop1234/conceitos-do-react-native) ![GitHub top language](https://img.shields.io/github/languages/top/vop1234/conceitos-do-react-native)
 
 <p align="center">
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
