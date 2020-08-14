@@ -1,6 +1,6 @@
 
 <h1 align="center">
-Conceitos do React Native
+React Native concepts
 </h1>
 
 <h4 align="center">
